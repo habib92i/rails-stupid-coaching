@@ -3,18 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $gray: #F4F4F4;
 
-// body {
-//   background: $gray; // Using this variable
-// }
-// .banner {
-//   background: red;
-//   h1 {
-//     font-size: 50px;
-//   }
-// }
-// #sub{
-//   color: grey;
-//   &:hover {
-//     color: black;
-//   }
-// }
+body {
+  background: $gray; // Using this variable
+  font-family: sans-serif;
+
+}
+.container{
+  width: 500px;
+  margin: auto;
+}
+.ask{
+  border-left: 5px solid gray;
+  padding-left: 5px;
+  height: 80px;
+}
+.answer{
+  background-color: yellow;
+}
+#blank{
+  width:200px;
+  height: 30px;
+  padding-right: 10px;
+}
+.sub{
+  padding: 11px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-left: 10px;
+}
+
